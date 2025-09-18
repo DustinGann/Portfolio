@@ -1,12 +1,142 @@
-Hello world
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+   
+    <title>Dustin Gann - Artist and Web Designer </title>
+    <meta name="description" content="porfoleo of Dustin Gann AR">
+    <meta name="keywords" content="Artist, HTML, CSS, PHP ,JavaScript">
+    <meta name="author" content="Dustin Gann">
+   
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- See https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp-->
+
 </head>
 <body>
-    
+<div id="container">
+    <h1>Portfolio of Bruce Bauer</h1>
+    <div class="topnav" id="myTopnav">
+        <a class="tablinks" onclick="openTab(event, 'Home')" class="active" id="defaultOpen">Profile</a>
+        <a class="tablinks" onclick="openTab(event, 'Resume')">Resume</a>
+        <a class="tablinks" onclick="openTab(event, 'Skills')">Skills</a>
+        <a class="tablinks" onclick="openTab(event, 'Education')">Education</a>
+        <a class="tablinks" onclick="openTab(event, 'Accomplishments')">Accomplishments</a>
+        <a class="tablinks" onclick="openTab(event, 'CoverLetter')">Cover Letter</a>
+        <a class="tablinks" onclick="openTab(event, 'Contact')">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Work Examples 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a class="tablinks" onclick="openTab(event, 'Writing')">Writing Examples</a>
+                <a class="tablinks" onclick="openTab(event, 'WebProject')">Web Project</a>
+                <a class="tablinks" onclick="openTab(event, 'Database')">Database</a>
+                <a class="tablinks" onclick="openTab(event, 'Programming')">Programming</a>
+                <a class="tablinks" onclick="openTab(event, 'SoftSkills')">Soft Skills</a>
+                <a class="tablinks" onclick="openTab(event, 'Capstone')">Capstone</a>
+            </div>
+        </div> 
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+
+    <!-- Begin Home Section -->
+    <div id="Home" class="tabcontent">
+        <h2>Profile</h2>
+    </div>
+
+    <!-- Begin Skills Section -->
+    <div id="Skills" class="tabcontent">
+        <h2>Skills</h2>
+    </div>
+
+    <!-- Begin Education Section -->
+    <div id="Education" class="tabcontent">
+        <h2>Education</h2>
+    </div>
+
+    <!-- Begin Accomplishments Section -->
+    <div id="Accomplishments" class="tabcontent">
+        <h2>Accomplishments</h2>
+    </div>        
+  
+    <!-- Begin Skills Section -->
+    <div id="Resume" class="tabcontent">
+        <h2>Resume</h2>
+    </div>
+    <!-- Begin Coverletter-->
+    <div id="CoverLetter" class="tabcontent">
+        <h2>Letter of Introduction</h2>
+    </div>
+
+    <!--Begin Contact-->
+    <div id="Contact" class="tabcontent">
+      <h2>Contact Me</h2>
+    </div>
+
+    <!-- Begin Writing Examples-->
+    <div id="Writing" class="tabcontent">
+        <h2>Writing Example 1</h2>
+        <h2>Writing Example 2</h2>
+    </div>
+
+    <!-- Begin Web Examples -->
+    <div id="WebProject" class="tabcontent">
+        <h2>Web Project 1</h2>
+        <h2>Web Project 2</h2>
+    </div>
+
+    <!-- Begin Database Examples -->
+    <div id="Database" class="tabcontent">
+        <h2>Database Project 1</h2>
+        <h2>Database Project 2</h2>
+    </div>
+
+    <!-- Begin Programming Examples -->
+    <div id="Programming" class="tabcontent">
+        <h2>Programming Project 1</h2>
+        <h2>Programming Project 2</h2>
+    </div>
+
+    <!-- Begin Soft Skills -->
+    <div id="SoftSkills" class="tabcontent">
+        <h2>Soft Skills Project 1</h2>
+        <h2>Soft Skills Project 2</h2>
+    </div>
+
+    <!-- Begin Capstone Project -->
+    <div id="Capstone" class="tabcontent">
+        <h2>Capstone Project</h2>
+    </div>
+</div>
+
+<script>
+/* Click the default tab so that the profile is displayed */
+document.getElementById("defaultOpen").click();
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+function openTab(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
 </body>
 </html>
