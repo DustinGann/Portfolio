@@ -1,5 +1,13 @@
 
-body {margin:0;font-family:Arial}
+body {margin:0;font-family:Arial;
+  font-size: 1.3rem;
+  padding: 0px 40px;
+
+}
+div#Home{
+
+}
+
 
 .topnav {
   overflow: hidden;
