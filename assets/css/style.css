@@ -9,6 +9,11 @@ padding: 0px 80px;
 
 }
 
+div#baby-image img{
+
+  max-height: 40rem;
+}
+
 
 .topnav {
   overflow: hidden;
