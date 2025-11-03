@@ -12,7 +12,15 @@ padding: 0px 80px;
 div#baby-image img{
 
   max-height: 40rem;
+  max-width: 50rem;
 }
+div#baby-image div.SoftSection{
+
+ 
+ 
+}
+
+
 
 
 .topnav {
