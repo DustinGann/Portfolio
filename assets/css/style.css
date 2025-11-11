@@ -4,13 +4,9 @@ body {margin:0;font-family:Arial;
   
 
 }
-#main-c{
-
-
-}
 
 #container{
-  margin :0px;
+ 
 }
 
 div#baby-image img{
@@ -148,6 +144,12 @@ body {
 
 }
 
+main{
+
+  padding: 20px;
+}
+
+
 p {
 	margin-bottom: 20px;
 }
@@ -169,4 +171,49 @@ p.shift {
 }	
 
 
+
+
+
+
+
+
+/*BEGIN RESUME AND COVER LETER*/
+main.paper{
+
+
+
+padding: 50px;
+min-height: 1vh;
+
+  background-position: center center;
+  background-size: cover;
+  
+  	position: relative;
+  
+}
+
+main.paper::before {
+ 
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 2vh;
+  background-image: url(/assets/img/part2/nath.png);
+  background-size: cover; /* Adjust as needed (e.g., contain, auto) */
+  background-repeat: no-repeat; 
+  opacity: 0.4; /* Adjust opacity from 0.0 (transparent) to 1.0 (opaque) */
+  z-index: -1;
+}
+
+main.paper #main-c{
+  background-color: #ffffff;
+  width: 40%;
+  padding: 20px;
+  margin: auto;
+
+
+}
 
