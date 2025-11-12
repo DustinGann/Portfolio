@@ -21,18 +21,13 @@ div#baby-image div.SoftSection{
 }
 
 
-h1{
-  font-size: 20px;
-  color: #ffffff;
-  display: flex;
-  flex-direction: row-reverse;
-  padding-right: 20px;
-}
+
 
 .topnav {
   display: block;
   overflow: hidden;
   background-color: #333;
+ 
 }
 
 .topnav a {
@@ -43,11 +38,22 @@ h1{
   padding: 14px 20px;
   text-decoration: none;
   font-size: 19px;
+  border:solid 5px #333;
+  border-radius: 200px;
 }
 
+.topnav  .navlogo{
+  
+  float: right;
+  
+  
+}
+
+
 .active {
-  background-color: #159c7d;
+  background-color: #159c7d !important;
   color: white;
+  border: #159c7d;
 }
 
 .topnav .icon {
@@ -68,6 +74,8 @@ h1{
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  border:solid 5px #333;
+   border-radius: 200px;
 }
 
 .dropdown-content {
@@ -77,6 +85,7 @@ h1{
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border-radius: 10px;
 }
 
 .dropdown-content a {
@@ -86,11 +95,20 @@ h1{
   text-decoration: none;
   display: block;
   text-align: left;
+  border:solid 0px;
+  border-radius: 00px;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: #555;
   color: white;
+}
+
+.topnav  .navlogo:hover{
+  background-color:none;
+  background-color: #333;
+  text-decoration: underline;
+  
 }
 
 .dropdown-content a:hover {
@@ -185,11 +203,12 @@ main.paper{
 padding: 50px;
 min-height: 1vh;
 
-  background-position: center center;
-  background-size: cover;
+background-position: center center;
+background-size: cover;
   
-  	position: relative;
-  
+position: relative;
+
+  display: block;
 }
 
 main.paper::before {
@@ -208,12 +227,32 @@ main.paper::before {
   z-index: -1;
 }
 
-main.paper #main-c{
-  background-color: #ffffff;
-  width: 40%;
-  padding: 20px;
-  margin: auto;
+main.paper .page{
 
+  background-color: #ffffff;
+  width: 43%;
+  padding: 20px 40px;
+  
+  box-shadow: 9px 12px 2px 1px rgba(2, 14, 27, 0.2);
+  margin-bottom: 20px;
 
 }
+
+main.paper h1{
+  
+}
+#CoverLetter{
+  float: right;
+  
+
+}
+#Resume{
+  margin-right:auto ;
+
+}  
+
+#papercontainer{
+  padding: 0 25px;
+}
+
 
