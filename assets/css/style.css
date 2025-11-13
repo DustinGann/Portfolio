@@ -214,7 +214,8 @@ main.paper::before {
   left: 0;
   right: 0;
   min-height: 2vh;
-  background-image: url(/assets/img/part2/nath.png);
+  background-image: url(../img/nath.png);
+
   background-size: cover; /* Adjust as needed (e.g., contain, auto) */
   background-repeat: no-repeat; 
   opacity: 1; /* Adjust opacity from 0.0 (transparent) to 1.0 (opaque) */
