@@ -202,7 +202,7 @@ p.shift {
 main.paper{
 
 
-
+background-color: rgba(184, 184, 184, 0.842);
 padding: 50px;
 min-height: 1vh;
 
@@ -226,7 +226,7 @@ main.paper::before {
   background-image: url(/assets/img/part2/nath.png);
   background-size: cover; /* Adjust as needed (e.g., contain, auto) */
   background-repeat: no-repeat; 
-  opacity: 0.4; /* Adjust opacity from 0.0 (transparent) to 1.0 (opaque) */
+  opacity: 1; /* Adjust opacity from 0.0 (transparent) to 1.0 (opaque) */
   z-index: -1;
 }
 
