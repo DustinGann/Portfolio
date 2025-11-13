@@ -24,6 +24,7 @@ div#baby-image div.SoftSection{
 
 
 .topnav {
+  
   display: block;
   overflow: hidden;
   background-color: #333;
@@ -76,6 +77,7 @@ div#baby-image div.SoftSection{
   margin: 0;
   border:solid 5px #333;
    border-radius: 200px;
+   
 }
 
 .dropdown-content {
@@ -86,6 +88,7 @@ div#baby-image div.SoftSection{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 10px;
+  
 }
 
 .dropdown-content a {
