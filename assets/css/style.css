@@ -9,16 +9,7 @@ body {margin:0;font-family:Arial;
  
 }
 
-div#baby-image img{
 
-  max-height: 40rem;
-  max-width: 50rem;
-}
-div#baby-image div.SoftSection{
-
- 
- 
-}
 
 
 
@@ -259,3 +250,57 @@ main.paper h1{
 }
 
 
+
+
+
+
+
+
+  .slideshow {
+    width: min(900px, 95vw);
+    margin: auto;
+  }
+  .stage {
+    position: relative;
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+  }
+  .stage img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    cursor: zoom-in;
+  }
+  .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .prev { left: 10px; }
+  .next { right: 10px; }
+
+  /* Lightbox overlay */
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .lightbox img {
+    max-width: 98%;
+    max-height: 98%;
+    display: block;
+  }
