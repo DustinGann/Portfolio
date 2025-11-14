@@ -186,12 +186,24 @@ p.shift {
 
 
 .Examplesstyle{
-  margin: 50px;
-  background-color: #ddd;
+  
+ margin: 10px 40px 60px 40px;
+ 
+}
+.Examplesstyle h2{
+  margin-left: 40px; 
+   margin-bottom: -8px;
+   color: #767676;
+   text-transform: uppercase;
+}
+.Examplesstyle h3{
+  
+   margin: 0px;
 }
 .graycard{
-  margin: 50px;
-  background-color: #745252;
+ padding: 20px;
+ 
+  background-color: #767676;
 }
 
 
