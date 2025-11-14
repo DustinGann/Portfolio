@@ -1,24 +1,36 @@
 // Replace these with your images
   const images = [
     {
-      src: "assets/img/doro wardress(6).png",
-      original: "assets/img/doro wardress(6).png"
+      src: "assets/img/thumbnail/dw(2).jpg",
+      original: "assets/img/doro wardress(2).png"
     },
     {
-      src: "assets/img/doro wardress(6).png",
-      original: "assets/img/doro wardress(6).png"
+      src: "assets/img/thumbnail/ttp.png",
+      original: "assets/img/trash-taste-poster.png"
     },
      {
-      src: "assets/img/doro wardress(6).png",
-      original: "assets/img/doro wardress(6).png"
+      src: "assets/img/thumbnail/dv.jpg",
+      original: "assets/img/man.png"
     },
      {
-      src: "assets/img/doro wardress(6).png",
-      original: "assets/img/doro wardress(6).png"
+      src: "assets/img/thumbnail/md.jpg",
+      original: "assets/img/Mad dum.png"
+    },
+      {
+      src: "assets/img/thumbnail/d2.jpg",
+      original: "assets/img/Doro2.png"
+    },
+      {
+      src: "assets/img/thumbnail/mg.jpg",
+      original: "assets/img/MiiGunner2.png"
+    },
+     {
+      src: "assets/img/thumbnail/eye.jpg",
+      original: "assets/img/eye.gif"
     },
     {
-      src: "assets/img/doro wardress(6).png",
-      original: "assets/img/doro wardress(6).png"
+      src: "assets/img/thumbnail/nfl.jpg",
+      original: "assets/img/nifl.gif"
     }
   ];
 
