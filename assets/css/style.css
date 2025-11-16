@@ -203,6 +203,46 @@ p.shift {
 }
 
 
+
+#main-skills .Examplesstyle2 .graycard{
+  height: 500px;
+}
+#main-skills .Examplesstyle3 .graycard{ 
+
+  height: 400px;
+}
+
+
+#main-skills .Examplesstyle3 .individual{
+display: block;
+clear: both;
+}
+
+#main-skills .Examplesstyle2 .individual{
+display: block;
+clear: both;
+}
+
+#main-skills .Examplesstyle2 img{
+  width: 350px;
+  float: left;
+  margin: 0 20px 30px 0px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 1px #00000020;
+}
+
+#main-skills .Examplesstyle3 img{
+  width: 300px;
+  float: left;
+  margin: 0 20px 30px 0px;
+   border-radius: 10px;
+  box-shadow: 10px 10px 1px #00000020;
+    box-shadow: 0px 0px 1px 10px #00000020;
+}
+
+
+
+
 .Examplesstyle{
   
  margin: 10px 0px 60px 0px;
@@ -251,6 +291,26 @@ p.shift {
 
 
 
+.Examplesstyle3{
+  
+ margin: 0px 50px 0px 50px;
+ color: #000000;
+}
+.Examplesstyle3 h2{
+  margin-left: 40px; 
+  
+   color: #000000;
+   text-transform: uppercase;
+}
+.Examplesstyle3 h3{
+  
+  
+}
+.Examplesstyle3 .graycard{
+  padding: 0px 158px 60px 158px;
+ margin: -50;
+ 
+}
 
 
 
@@ -381,3 +441,8 @@ main.paper h1{
     max-height: 98%;
     display: block;
   }
+
+
+
+
+  
