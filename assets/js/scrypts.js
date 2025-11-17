@@ -6,7 +6,7 @@
     },
     {
       src: "assets/img/thumbnail/ttp.png",
-      original: "assets/img/trash-taste-poster.png"
+      original: "assets/img/trash-taste-poster.jpg"
     },
     {
       src: "assets/img/thumbnail/gsit.png",
