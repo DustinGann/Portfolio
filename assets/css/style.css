@@ -236,7 +236,7 @@ clear: both;
   float: left;
   margin: 0 20px 30px 0px;
    border-radius: 10px;
-  box-shadow: 10px 10px 1px #00000020;
+  
     box-shadow: 0px 0px 1px 10px #00000020;
 }
 
@@ -275,8 +275,10 @@ clear: both;
 .Examplesstyle2 h2{
   margin-left: 40px; 
    margin-bottom: -8px;
-   color: #000000;
+   color: #b8b7b7;
    text-transform: uppercase;
+ 
+   
 }
 .Examplesstyle2 h3{
   
@@ -309,6 +311,14 @@ clear: both;
 .Examplesstyle3 .graycard{
   padding: 0px 158px 60px 158px;
  margin: -50;
+ 
+}
+
+
+
+#Capstone .graycard{
+ height: 250px !important;
+ 
  
 }
 
