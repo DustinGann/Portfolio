@@ -195,6 +195,30 @@ p.shift {
 	padding: 5px;
 	border: 1px solid #CCC;
 }	
+/*BEGIN profile*/
+
+
+main#home {
+  margin: 30px 70px ;
+}
+
+main#home #home-card1{
+  height: 470px;
+}
+main#home #home-card1 p{
+  
+  padding: 20px;
+
+  margin: 20px;
+  font-size: 2rem;
+}
+
+main#home #home-card1 img{
+  max-height: 450px;
+  float: left;
+  padding: 20px;
+}
+
 
 /*BEGIN Skills LETER*/
 
@@ -451,6 +475,21 @@ main.paper h1{
     max-height: 98%;
     display: block;
   }
+
+
+
+  /*Footer */
+
+  footer{
+    background-color: #333;
+    position: relative;
+  }
+  
+  #foot-floatR{
+
+  
+  }
+
 
 
 
