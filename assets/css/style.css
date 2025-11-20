@@ -1,7 +1,18 @@
 
 body {margin:0;font-family:Arial;
   font-size: 1.3rem;
-  
+   font-family: "Inria Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+h1,h2{
+font-weight: 800;
+
+}
+
+h3,h4,h5{
+font-weight: 600;
 
 }
 
@@ -163,7 +174,7 @@ text-shadow: 2px 2px 7px rgba(0,0,0,0.85);
 
 
 body {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
 	/*background-color: #666;*/
 	}
 
@@ -482,11 +493,37 @@ main.paper h1{
 
   footer{
     background-color: #333;
+    display:inline-block;
     position: relative;
+    width: 100%;
+    color: #fff;
+
+    text-decoration: none;
+
+ 
+
+    
+   
+    
+  }
+  footer ul{
+    padding: 0px 20px;
+     list-style:none;
+     margin-bottom: 5px;
+  }
+
+  footer h2{
+   
+    border-bottom:solid 2px #ffffff;
+    padding-left: 170px;
+    width: 311px;
+    
   }
   
-  #foot-floatR{
-
+  
+  #foot-floatR {
+    
+float:right;
   
   }
 
