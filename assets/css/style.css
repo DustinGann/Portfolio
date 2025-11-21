@@ -237,6 +237,43 @@ main#home #home-card1 img{
   padding: 0;
 }
 
+.Skillslist{
+
+  padding: 30px;
+  
+
+}
+.Skillslist ul{
+
+  
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+  gap: 0px 100px ;
+  padding:0px 40px;
+}
+
+
+.Skillslist li{
+  list-style: none;
+  margin: auto ;
+
+  display: flex;
+ 
+  align-items: center;
+  
+  width: 100%;
+}
+
+.Skillslist progress{
+  
+  
+height: 50px;
+margin-left: auto;
+ 
+
+ justify-content: end;
+}
 
 
 #main-skills .Examplesstyle2 .graycard{
@@ -491,7 +528,7 @@ main.paper h1{
 
   /*Footer */
 
-  footer{
+ footer{
     background-color: #333;
     display:inline-block;
     position: relative;
@@ -521,9 +558,10 @@ main.paper h1{
   }
   
   
-  #foot-floatR {
+  #foot-floatR{
     
 float:right;
+text-align: right;
   
   }
 
