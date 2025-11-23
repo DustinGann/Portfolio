@@ -1,8 +1,9 @@
 // Replace these with your images
   const images = [
+   
     {
-      src: "assets/img/thumbnail/dw(2).jpg",
-      original: "assets/img/doro wardress(2).png"
+      src: "assets/img/thumbnail/dv.jpg",
+      original: "assets/img/man.png"
     },
     {
       src: "assets/img/thumbnail/ttp.png",
@@ -13,9 +14,10 @@
       original: "assets/img/GSITimeline.png"
     },
      {
-      src: "assets/img/thumbnail/dv.jpg",
-      original: "assets/img/man.png"
+      src: "assets/img/thumbnail/dw(2).jpg",
+      original: "assets/img/doro wardress(2).png"
     },
+     
      {
       src: "assets/img/thumbnail/md.jpg",
       original: "assets/img/Mad dum.png"

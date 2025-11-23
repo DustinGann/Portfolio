@@ -215,7 +215,17 @@ main#home {
 
 main#home #home-card1{
   height: 470px;
+  position: relative;
 }
+
+main#home #home-card1 h3{
+  
+  padding: 10px;
+
+  margin: 20px;
+  font-size: 2.4rem;
+}      
+
 main#home #home-card1 p{
   
   padding: 20px;
@@ -229,6 +239,24 @@ main#home #home-card1 img{
   float: left;
   padding: 20px;
 }
+
+.link-to-button
+{
+
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 19px;
+  
+  border-radius: 200px;
+
+  background-color: #159c7d;
+  color: white;
+  
+    
+  
+}
+
 
 
 /*BEGIN Skills LETER*/
@@ -566,7 +594,50 @@ text-align: right;
   }
 
 
+  @media (max-width: 1350px) {
+  #CoverLetter{
+  float: none;
+   }
+   main.paper .page
+   {
+    width: 90%;
 
+   }
+
+
+
+
+   .Skillslist ul{
+  grid-template-columns: repeat(2, 1fr); 
+   }
+
+
+  main#home #home-card1 img{
+    
+    clear: both ;
+    float: none;
+    width: 100%;
+    max-height: none;
+    
+  
+}
+
+  main#home #home-card1{
+  height: auto;}
+
+
+  }
 
 
   
+  @media (max-width: 900px) {
+
+    
+
+  
+ 
+  
+   
+  
+
+}
