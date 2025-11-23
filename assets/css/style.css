@@ -301,7 +301,14 @@ margin-left: auto;
  
 
  justify-content: end;
+ 
 }
+
+.Skillslist progress {
+accent-color: #159c7d;;
+}
+
+
 
 
 #main-skills .Examplesstyle2 .graycard{
@@ -628,9 +635,35 @@ text-align: right;
 
   .Examplesstyle .graycard{
    
-    padding: 40px 0px;
-    
+    padding: 40px 0px; 
   }
+
+
+#main-skills .Examplesstyle2 .graycard{
+  padding:40px 70px ;
+}
+
+#main-skills .Examplesstyle3 .graycard{
+  padding:0px 70px 60px 70px ;
+}
+
+#Capstone .graycard{
+ 
+ 
+  
+  height: auto !important;
+ 
+}
+
+#Capstone .graycard img{
+ 
+
+float: none !important;
+
+width: 100%;
+}
+
+
 
   }
 

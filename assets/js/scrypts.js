@@ -18,10 +18,7 @@
       original: "assets/img/doro wardress(2).png"
     },
      
-     {
-      src: "assets/img/thumbnail/md.jpg",
-      original: "assets/img/Mad dum.png"
-    },
+     
       {
       src: "assets/img/thumbnail/d2.jpg",
       original: "assets/img/Doro2.png"
@@ -29,6 +26,10 @@
       {
       src: "assets/img/thumbnail/mg.jpg",
       original: "assets/img/MiiGunner2.png"
+    },
+    {
+      src: "assets/img/thumbnail/md.jpg",
+      original: "assets/img/Mad dum.png"
     },
      {
        src: "assets/img/thumbnail/nfl.jpg",
