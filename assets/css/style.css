@@ -619,18 +619,7 @@ text-align: right;
    }
 
 
-  main#home #home-card1 img{
-    
-    clear: both ;
-    float: none;
-    width: 100%;
-    max-height: none;
-    
   
-}
-
-  main#home #home-card1{
-  height: auto;}
 
 
   .Examplesstyle .graycard{
@@ -656,20 +645,32 @@ text-align: right;
 }
 
 #Capstone .graycard img{
- 
-
 float: none !important;
 
 width: 100%;
 }
 
+main#home #home-card1 p{
+  font-size: 1.3rem;
+}
 
 
-  }
+}
 
 
   
-  @media (max-width: 900px) {
+@media (max-width: 900px) {
+
+  main#home #home-card1 img{
+    
+    clear: both ;
+    float: none;
+    width: 100%;
+    max-height: none;
+    }
+
+  main#home #home-card1{
+  height: auto;}
 
     
 
